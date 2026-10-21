@@ -1,0 +1,21 @@
+# Credenciales y accesos a Azure (CRÍTICO)
+paginas/modelo/credenciales.php
+credenciales.php
+*.env
+.env*
+
+# Dependencias (si llegan a usar composer o node)
+vendor/
+node_modules/
+
+# Archivos del sistema y editores
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Logs y volcados de errores
+*.log

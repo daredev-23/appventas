@@ -11,8 +11,23 @@
     <div class="collapse navbar-collapse" id="menuPrincipal">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
+          <a class="nav-link" href="<?= $base ?>/venta/index.php">
+            <i class="fa-solid fa-cash-register me-1"></i>Ventas
+          </a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="<?= $base ?>/departamento/index.php">
             <i class="fa-solid fa-map me-1"></i>Departamentos
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<?= $base ?>/provincia/index.php">
+            <i class="fa-solid fa-map-location-dot me-1"></i>Provincias
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<?= $base ?>/distrito/index.php">
+            <i class="fa-solid fa-location-dot me-1"></i>Distritos
           </a>
         </li>
       </ul>

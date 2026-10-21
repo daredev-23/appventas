@@ -8,7 +8,7 @@ class Conexion
     $opciones = [
       PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
       PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
-      \Pdo\Mysql::ATTR_SSL_CA => '/etc/ssl/certs/ca-certificates.crt'
+      // \Pdo\Mysql::ATTR_SSL_CA => '/etc/ssl/certs/ca-certificates.crt'
     ];
     return new PDO($dsn, $c['usuario'], $c['clave'], $opciones);
   }
